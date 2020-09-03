@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+    <link rel="stylesheet" href="Stylesheet.css">
   <head>
     <title>Socket.IO chat</title>
     <style>
@@ -21,7 +22,7 @@
     <script src="/socket.io/socket.io.js"></script>
    <script src="/socket.io/socket.io.js"></script>
    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-   <script>
+   <script id="text">
     $(function () {
       var socket = io();
       $('form').submit(function(e){
